@@ -5,7 +5,7 @@
 Clone this repository and install its dependencies:
 
 ```bash
-git clone https://github.com/MissouriState-CSC515-Spring2020/crimsonsword01-project/tree/feature
+git clone https://github.com/MissouriState-CSC515-Spring2020/crimsonsword01-project.git
 cd rollup-starter-app
 npm install
 ```
