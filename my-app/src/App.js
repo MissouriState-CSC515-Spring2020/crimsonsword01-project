@@ -75,72 +75,81 @@ function Gallery() {
           <Col xs={6} md={4} lg={3}>
             <a href="/details">
               <Image
-                src="https://i.pinimg.com/originals/58/ee/8c/58ee8c4bac9b5948b3cd132765797968.png"
-                thumbnail
+                src="https://cdn.traileraddict.com/content/madman/a-silent-voice-poster.jpg"
+                style={{ width: "100%", height: "500px" }}
+                fluid
               />
             </a>
           </Col>
           <Col xs={6} md={4} lg={3}>
             <a href="/details">
               <Image
-                src="https://ohmy.disney.com/wp-content/uploads/2014/03/Ansin_BeautyandtheBeast_REG_press.jpg"
-                thumbnail
+                src="https://cdn.traileraddict.com/content/studio-ghibli/spirited-away.jpg"
+                style={{ width: "100%", height: "500px" }}
+                fluid
               />
             </a>
           </Col>
           <Col xs={6} md={4} lg={3}>
             <a href="/details">
               <Image
-                src="https://www.insidethemagic.net/wp-content/uploads/2017/03/Mondo-Aladdin.jpg"
-                thumbnail
+                src="https://cdn.traileraddict.com/content/madman/the-boy-and-the-beast.jpg"
+                style={{ width: "100%", height: "500px" }}
+                fluid
               />
             </a>
           </Col>
           <Col xs={6} md={4} lg={3}>
             <a href="/details">
               <Image
-                src="https://img.buzzfeed.com/buzzfeed-static/static/2014-03/enhanced/webdr02/7/20/enhanced-2000-1394241139-5.jpg"
-                thumbnail
+                src="https://cdn.traileraddict.com/content/walt-disney-pictures/treasure_planet.jpg"
+                style={{ width: "100%", height: "500px" }}
+                fluid
               />
             </a>
           </Col>
           <Col xs={6} md={4} lg={3}>
             <a href="/details">
               <Image
-                src="https://artfiles.alphacoders.com/730/7300.jpg"
-                thumbnail
+                src="https://cdn.traileraddict.com/content/madman/girl-who-leapt-through-time-poster.jpg"
+                style={{ width: "100%", height: "500px" }}
+                fluid
               />
             </a>
           </Col>
           <Col xs={6} md={4} lg={3}>
             <a href="/details">
               <Image
-                src="https://ohmy.disney.com/wp-content/uploads/2014/10/big_hero_6_poster_malaysia.jpg"
-                thumbnail
+                src="https://fanart.tv/fanart/tv/74852/tvposter/avatar-the-last-airbender-590f3cebc05ad.jpg"
+                style={{ width: "100%", height: "500px" }}
+                fluid
               />
             </a>
           </Col>
           <Col xs={6} md={4} lg={3}>
             <a href="/details">
               <Image
-                src="https://i5.walmartimages.com/asr/535b20a0-c3fa-4f30-a90c-6b38e9b5b0bd_1.f38213d9740c5093333806aa43ad4dfd.jpeg"
-                thumbnail
+                src="https://cdn.shopify.com/s/files/1/0798/5303/products/The-Ancient-Magus_-Bride_grande.jpg?v=1510174686"
+                style={{ width: "100%", height: "500px" }}
+                fluid
               />
             </a>
           </Col>
           <Col xs={6} md={4} lg={3}>
             <a href="/details">
               <Image
-                src="https://i.pinimg.com/originals/68/02/a6/6802a6384cb0175c89487cf0adfc54f7.jpg"
-                thumbnail
+                src="https://fanart.tv/fanart/tv/262090/tvposter/psycho-pass-54a8915bbb9a4.jpg"
+                style={{ width: "100%", height: "500px" }}
+                fluid
               />
             </a>
           </Col>
           <Col xs={6} md={4} lg={3}>
             <a href="/details">
               <Image
-                src="https://www1.pictures.livingly.com/mp/r4yMiu1q-YUl.jpg"
-                thumbnail
+                src="http://media.comicbook.com/2016/03/voltron-poster-175958.jpg"
+                style={{ width: "100%", height: "500px" }}
+                fluid
               />
             </a>
           </Col>
@@ -357,63 +366,8 @@ function VideoGameCategory() {
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
               <Image
-                src="https://i.pinimg.com/originals/58/ee/8c/58ee8c4bac9b5948b3cd132765797968.png"
-                thumbnail
-                style={{ borderStyle: "inset", borderWidth: "5px" }}
-              />
-            </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
-            <a href="/details">
-              <Image
-                src="https://ohmy.disney.com/wp-content/uploads/2014/03/Ansin_BeautyandtheBeast_REG_press.jpg"
-                thumbnail
-                style={{ borderStyle: "inset", borderWidth: "5px" }}
-              />
-            </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
-            <a href="/details">
-              <Image
-                src="https://www.insidethemagic.net/wp-content/uploads/2017/03/Mondo-Aladdin.jpg"
-                thumbnail
-                style={{ borderStyle: "inset", borderWidth: "5px" }}
-              />
-            </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
-            <a href="/details">
-              <Image
-                src="https://img.buzzfeed.com/buzzfeed-static/static/2014-03/enhanced/webdr02/7/20/enhanced-2000-1394241139-5.jpg"
-                thumbnail
-                style={{ borderStyle: "inset", borderWidth: "5px" }}
-              />
-            </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
-            <a href="/details">
-              <Image
-                src="https://artfiles.alphacoders.com/730/7300.jpg"
-                thumbnail
-                style={{ borderStyle: "inset", borderWidth: "5px" }}
-              />
-            </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
-            <a href="/details">
-              <Image
-                src="https://ohmy.disney.com/wp-content/uploads/2014/10/big_hero_6_poster_malaysia.jpg"
-                thumbnail
-                style={{ borderStyle: "inset", borderWidth: "5px" }}
-              />
-            </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
-            <a href="/details">
-              <Image
-                src="https://i5.walmartimages.com/asr/535b20a0-c3fa-4f30-a90c-6b38e9b5b0bd_1.f38213d9740c5093333806aa43ad4dfd.jpeg"
-                thumbnail
-                style={{ borderStyle: "inset", borderWidth: "5px" }}
+                src=""
+                style={{ width: "100%", height: "500px" }}
                 fluid
               />
             </a>
@@ -421,9 +375,8 @@ function VideoGameCategory() {
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
               <Image
-                src="https://i.pinimg.com/originals/68/02/a6/6802a6384cb0175c89487cf0adfc54f7.jpg"
-                thumbnail
-                style={{ borderStyle: "inset", borderWidth: "5px" }}
+                src=""
+                style={{ width: "100%", height: "500px" }}
                 fluid
               />
             </a>
@@ -431,9 +384,63 @@ function VideoGameCategory() {
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
               <Image
-                src="https://www1.pictures.livingly.com/mp/r4yMiu1q-YUl.jpg"
+                src=""
+                style={{ width: "100%", height: "500px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src=""
+                style={{ width: "100%", height: "500px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src=""
+                style={{ width: "100%", height: "500px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src=""
+                style={{ width: "100%", height: "500px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src=""
+                style={{ width: "100%", height: "500px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src=""
                 thumbnail
-                style={{ borderStyle: "inset", borderWidth: "5px" }}
+                style={{ width: "100%", height: "500px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src=""
+                style={{ width: "100%", height: "500px" }}
                 fluid
               />
             </a>
@@ -451,15 +458,13 @@ function Details() {
       <Card style={{ width: "18rem" }}>
         <Card.Img
           variant="top"
-          src="https://www1.pictures.livingly.com/mp/r4yMiu1q-YUl.jpg"
+          src="http://media.comicbook.com/2016/03/voltron-poster-175958.jpg"
         />
         <Card.Body>
-          <Card.Title>Cinderella</Card.Title>
+          <Card.Title>Voltron</Card.Title>
         </Card.Body>
         <ListGroup className="list-group-flush">
-          <ListGroupItem>1950</ListGroupItem>
-          <ListGroupItem>More Picture Details</ListGroupItem>
-          <ListGroupItem>More Picture Details</ListGroupItem>
+          <ListGroupItem>2016</ListGroupItem>
         </ListGroup>
       </Card>
     )
