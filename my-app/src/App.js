@@ -62,84 +62,246 @@ function Gallery() {
     (document.title = "Photo Gallery"),
     (
       <Container>
-        <Row className="panda">
-          <Col xs={6} md={4} lg={3}>
+        <Row>
+        <Col xs={12} md={6} lg={4}>
             <a href="/details">
               <Image
-                src="https://cdn.traileraddict.com/content/madman/a-silent-voice-poster.jpg"
-                style={{ width: "100%", height: "500px", borderStyle: "solid", borderWidth: "5px", borderColor: "white" }}
+                src="https://images.squarespace-cdn.com/content/v1/52127948e4b06d5f9d345a0f/1376943030746-UWKC9JG5TRU4UKUFCGI2/ke17ZwdGBToddI8pDm48kORGQBXhNGZU2AZjkDf_15xZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpyYWIZjFqIhVHL5wdbUEf-_jyvmnXjmyRpH4uIQyuaMfet89qDT7zPIXm4DAzvfSgo/howlsmovingcastle.jpg?format=500w"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
                 fluid
               />
             </a>
           </Col>
-          <Col xs={6} md={4} lg={3}>
-            <a href="/details">
-              <Image
-                src="https://cdn.traileraddict.com/content/studio-ghibli/spirited-away.jpg"
-                style={{ width: "100%", height: "500px", borderStyle: "solid", borderWidth: "5px", borderColor: "white" }}
-                fluid
-              />
-            </a>
-          </Col>
-          <Col xs={6} md={4} lg={3}>
+          <Col xs={12} md={6} lg={4}>
             <a href="/details">
               <Image
                 src="https://cdn.traileraddict.com/content/madman/the-boy-and-the-beast.jpg"
-                style={{ width: "100%", height: "500px", borderStyle: "solid", borderWidth: "5px", borderColor: "white" }}
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
                 fluid
               />
             </a>
           </Col>
-          <Col xs={6} md={4} lg={3}>
+          <Col xs={12} md={6} lg={4}>
             <a href="/details">
               <Image
-                src="https://cdn.traileraddict.com/content/walt-disney-pictures/treasure_planet.jpg"
-                style={{ width: "100%", height: "500px", borderStyle: "solid", borderWidth: "5px", borderColor: "white" }}
+                src="https://cdn.traileraddict.com/content/studio-ghibli/spirited-away.jpg"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
                 fluid
               />
             </a>
           </Col>
-          <Col xs={6} md={4} lg={3}>
-            <a href="/details">
-              <Image
-                src="https://cdn.traileraddict.com/content/madman/girl-who-leapt-through-time-poster.jpg"
-                style={{ width: "100%", height: "500px", borderStyle: "solid", borderWidth: "5px", borderColor: "white" }}
-                fluid
-              />
-            </a>
-          </Col>
-          <Col xs={6} md={4} lg={3}>
+          <Col xs={12} md={6} lg={4}>
             <a href="/details">
               <Image
                 src="https://fanart.tv/fanart/tv/74852/tvposter/avatar-the-last-airbender-590f3cebc05ad.jpg"
-                style={{ width: "100%", height: "500px", borderStyle: "solid", borderWidth: "5px", borderColor: "white" }}
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
                 fluid
               />
             </a>
           </Col>
-          <Col xs={6} md={4} lg={3}>
-            <a href="/details">
-              <Image
-                src="https://cdn.shopify.com/s/files/1/0798/5303/products/The-Ancient-Magus_-Bride_grande.jpg?v=1510174686"
-                style={{ width: "100%", height: "500px", borderStyle: "solid", borderWidth: "5px", borderColor: "white" }}
-                fluid
-              />
-            </a>
-          </Col>
-          <Col xs={6} md={4} lg={3}>
-            <a href="/details">
-              <Image
-                src="https://fanart.tv/fanart/tv/262090/tvposter/psycho-pass-54a8915bbb9a4.jpg"
-                style={{ width: "100%", height: "500px", borderStyle: "solid", borderWidth: "5px", borderColor: "white" }}
-                fluid
-              />
-            </a>
-          </Col>
-          <Col xs={6} md={4} lg={3}>
+          <Col xs={12} md={6} lg={4}>
             <a href="/details">
               <Image
                 src="http://media.comicbook.com/2016/03/voltron-poster-175958.jpg"
-                style={{ width: "100%", height: "500px", borderStyle: "solid", borderWidth: "5px", borderColor: "white"}}
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src="https://fanart.tv/fanart/tv/262090/tvposter/psycho-pass-54a8915bbb9a4.jpg"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src="https://cdn1-www.playstationlifestyle.net/assets/uploads/2016/07/final-fantasy-xv-box-art-japan.jpg"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src="https://gearnuke.com/wp-content/uploads/2016/06/persona-5-2.jpg"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src="http://images.pushsquare.com/812e2fe3f9c33/kingdom-hearts-3-iii-ps4-playstation-4-1.original.jpg"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src="https://cdn.traileraddict.com/content/walt-disney-pictures/treasure_planet.jpg"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src="https://cdn.traileraddict.com/content/walt-disney-pictures/atlantis_lost_empire-3.jpg"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src="https://cdn.traileraddict.com/content/madman/girl-who-leapt-through-time-poster.jpg"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src="https://cdn.shopify.com/s/files/1/0798/5303/products/The-Ancient-Magus_-Bride_grande.jpg?v=1510174686"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src="https://image.tmdb.org/t/p/original/ac4qpPgSbK5kf5yhQHNmtzJdfCF.jpg"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src="https://cdn.shopify.com/s/files/1/0747/3829/products/mL0215_grande.jpg?v=1512225771"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/95a93d8c-f701-4cd4-9cf9-ffc64bf770a0/d9uxhm2-2a0a3648-de03-4558-8d6d-e02fc0c25584.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi85NWE5M2Q4Yy1mNzAxLTRjZDQtOWNmOS1mZmM2NGJmNzcwYTAvZDl1eGhtMi0yYTBhMzY0OC1kZTAzLTQ1NTgtOGQ2ZC1lMDJmYzBjMjU1ODQuanBnIn1dXX0.xMLg1TcBSzsQvuTzPX04kZh1Gr5xNLR2MEyWTztMDoQ"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src="https://media.indiedb.com/images/games/1/37/36427/hollow_knight_boxart_idb.png"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src="https://media.playstation.com/is/image/SCEA/resident-evil-2-deluxe-edition-box-art-01-ps4-us-12dec18?$native_nt$"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src="https://ohmy.disney.com/wp-content/uploads/2014/10/big_hero_6_poster_malaysia.jpg"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src="https://cdn.traileraddict.com/content/pixar-disney/walle-3.jpg"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src="https://cdn.traileraddict.com/content/madman/a-silent-voice-poster.jpg"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src="https://fanart.tv/fanart/tv/252322/tvposter/hunter-x-hunter-2011-56c9b2ebdf747.jpg"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src="http://img.codelyoko.fr/galeries/poster/promo_cl_99.jpg"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src="https://fanart.tv/fanart/tv/78259/tvposter/kim-possible-54c8749f09db0.jpg"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src="https://gamespot1.cbsistatic.com/uploads/scale_medium/box/2/4/6/8/448607-582468.jpg"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src="https://sickr.files.wordpress.com/2011/12/xenoblade_chronicles_us_box_art.jpg"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src="https://sickr.files.wordpress.com/2019/03/fire_emblem_three_houses_north_american_box_art.jpg"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
                 fluid
               />
             </a>
@@ -152,7 +314,7 @@ function Gallery() {
 
 function MovieCategory() {
   return (
-    (document.title = "Album"),
+    (document.title = "Movie Album"),
     (
       <Container>
         <div>
@@ -160,20 +322,11 @@ function MovieCategory() {
         </div>
 
         <Row>
-          <Col xs={12} md={6} lg={4}>
+        <Col xs={12} md={6} lg={4}>
             <a href="/details">
               <Image
-                src="https://cdn.traileraddict.com/content/madman/a-silent-voice-poster.jpg"
-                style={{ width: "100%", height: "500px" }}
-                fluid
-              />
-            </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
-            <a href="/details">
-              <Image
-                src="https://cdn.traileraddict.com/content/studio-ghibli/spirited-away.jpg"
-                style={{ width: "100%", height: "500px" }}
+                src="https://images.squarespace-cdn.com/content/v1/52127948e4b06d5f9d345a0f/1376943030746-UWKC9JG5TRU4UKUFCGI2/ke17ZwdGBToddI8pDm48kORGQBXhNGZU2AZjkDf_15xZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpyYWIZjFqIhVHL5wdbUEf-_jyvmnXjmyRpH4uIQyuaMfet89qDT7zPIXm4DAzvfSgo/howlsmovingcastle.jpg?format=500w"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
                 fluid
               />
             </a>
@@ -182,7 +335,16 @@ function MovieCategory() {
             <a href="/details">
               <Image
                 src="https://cdn.traileraddict.com/content/madman/the-boy-and-the-beast.jpg"
-                style={{ width: "100%", height: "500px" }}
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src="https://cdn.traileraddict.com/content/studio-ghibli/spirited-away.jpg"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
                 fluid
               />
             </a>
@@ -191,34 +353,7 @@ function MovieCategory() {
             <a href="/details">
               <Image
                 src="https://cdn.traileraddict.com/content/walt-disney-pictures/treasure_planet.jpg"
-                style={{ width: "100%", height: "500px" }}
-                fluid
-              />
-            </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
-            <a href="/details">
-              <Image
-                src="https://cdn.traileraddict.com/content/madman/girl-who-leapt-through-time-poster.jpg"
-                style={{ width: "100%", height: "500px" }}
-                fluid
-              />
-            </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
-            <a href="/details">
-              <Image
-                src="https://ohmy.disney.com/wp-content/uploads/2014/10/big_hero_6_poster_malaysia.jpg"
-                style={{ width: "100%", height: "500px" }}
-                fluid
-              />
-            </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
-            <a href="/details">
-              <Image
-                src="https://images.squarespace-cdn.com/content/v1/52127948e4b06d5f9d345a0f/1376943030746-UWKC9JG5TRU4UKUFCGI2/ke17ZwdGBToddI8pDm48kORGQBXhNGZU2AZjkDf_15xZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpyYWIZjFqIhVHL5wdbUEf-_jyvmnXjmyRpH4uIQyuaMfet89qDT7zPIXm4DAzvfSgo/howlsmovingcastle.jpg?format=500w"
-                style={{ width: "100%", height: "500px" }}
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
                 fluid
               />
             </a>
@@ -227,7 +362,25 @@ function MovieCategory() {
             <a href="/details">
               <Image
                 src="https://cdn.traileraddict.com/content/walt-disney-pictures/atlantis_lost_empire-3.jpg"
-                style={{ width: "100%", height: "500px" }}
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src="https://cdn.traileraddict.com/content/madman/girl-who-leapt-through-time-poster.jpg"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src="https://ohmy.disney.com/wp-content/uploads/2014/10/big_hero_6_poster_malaysia.jpg"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
                 fluid
               />
             </a>
@@ -236,7 +389,16 @@ function MovieCategory() {
             <a href="/details">
               <Image
                 src="https://cdn.traileraddict.com/content/pixar-disney/walle-3.jpg"
-                style={{ width: "100%", height: "500px" }}
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src="https://cdn.traileraddict.com/content/madman/a-silent-voice-poster.jpg"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
                 fluid
               />
             </a>
@@ -249,7 +411,7 @@ function MovieCategory() {
 
 function ShowCategory() {
   return (
-    (document.title = "Album"),
+    (document.title = "TV Show Album"),
     (
       <Container>
         <div>
@@ -257,11 +419,11 @@ function ShowCategory() {
         </div>
 
         <Row>
-          <Col xs={12} md={6} lg={4}>
+        <Col xs={12} md={6} lg={4}>
             <a href="/details">
               <Image
                 src="https://fanart.tv/fanart/tv/74852/tvposter/avatar-the-last-airbender-590f3cebc05ad.jpg"
-                style={{ width: "100%", height: "500px" }}
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
                 fluid
               />
             </a>
@@ -270,7 +432,7 @@ function ShowCategory() {
             <a href="/details">
               <Image
                 src="http://media.comicbook.com/2016/03/voltron-poster-175958.jpg"
-                style={{ width: "100%", height: "500px" }}
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
                 fluid
               />
             </a>
@@ -279,7 +441,7 @@ function ShowCategory() {
             <a href="/details">
               <Image
                 src="https://fanart.tv/fanart/tv/262090/tvposter/psycho-pass-54a8915bbb9a4.jpg"
-                style={{ width: "100%", height: "500px" }}
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
                 fluid
               />
             </a>
@@ -288,25 +450,7 @@ function ShowCategory() {
             <a href="/details">
               <Image
                 src="https://cdn.shopify.com/s/files/1/0798/5303/products/The-Ancient-Magus_-Bride_grande.jpg?v=1510174686"
-                style={{ width: "100%", height: "500px" }}
-                fluid
-              />
-            </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
-            <a href="/details">
-              <Image
-                src="https://fanart.tv/fanart/tv/78259/tvposter/kim-possible-54c8749f09db0.jpg"
-                style={{ width: "100%", height: "500px" }}
-                fluid
-              />
-            </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
-            <a href="/details">
-              <Image
-                src="https://cdn.shopify.com/s/files/1/0747/3829/products/mL0215_grande.jpg?v=1512225771"
-                style={{ width: "100%", height: "500px" }}
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
                 fluid
               />
             </a>
@@ -315,7 +459,16 @@ function ShowCategory() {
             <a href="/details">
               <Image
                 src="https://image.tmdb.org/t/p/original/ac4qpPgSbK5kf5yhQHNmtzJdfCF.jpg"
-                style={{ width: "100%", height: "500px" }}
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src="https://cdn.shopify.com/s/files/1/0747/3829/products/mL0215_grande.jpg?v=1512225771"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
                 fluid
               />
             </a>
@@ -324,7 +477,7 @@ function ShowCategory() {
             <a href="/details">
               <Image
                 src="https://fanart.tv/fanart/tv/252322/tvposter/hunter-x-hunter-2011-56c9b2ebdf747.jpg"
-                style={{ width: "100%", height: "500px" }}
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
                 fluid
               />
             </a>
@@ -333,7 +486,16 @@ function ShowCategory() {
             <a href="/details">
               <Image
                 src="http://img.codelyoko.fr/galeries/poster/promo_cl_99.jpg"
-                style={{ width: "100%", height: "500px" }}
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src="https://fanart.tv/fanart/tv/78259/tvposter/kim-possible-54c8749f09db0.jpg"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
                 fluid
               />
             </a>
@@ -346,7 +508,7 @@ function ShowCategory() {
 
 function VideoGameCategory() {
   return (
-    (document.title = "Album"),
+    (document.title = "Video Game Album"),
     (
       <Container>
         <div>
@@ -354,11 +516,11 @@ function VideoGameCategory() {
         </div>
 
         <Row>
-          <Col xs={12} md={6} lg={4}>
+        <Col xs={12} md={6} lg={4}>
             <a href="/details">
               <Image
                 src="https://cdn1-www.playstationlifestyle.net/assets/uploads/2016/07/final-fantasy-xv-box-art-japan.jpg"
-                style={{ width: "100%", height: "500px" }}
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
                 fluid
               />
             </a>
@@ -367,7 +529,7 @@ function VideoGameCategory() {
             <a href="/details">
               <Image
                 src="https://gearnuke.com/wp-content/uploads/2016/06/persona-5-2.jpg"
-                style={{ width: "100%", height: "500px" }}
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
                 fluid
               />
             </a>
@@ -376,7 +538,7 @@ function VideoGameCategory() {
             <a href="/details">
               <Image
                 src="http://images.pushsquare.com/812e2fe3f9c33/kingdom-hearts-3-iii-ps4-playstation-4-1.original.jpg"
-                style={{ width: "100%", height: "500px" }}
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
                 fluid
               />
             </a>
@@ -385,7 +547,7 @@ function VideoGameCategory() {
             <a href="/details">
               <Image
                 src="https://gamespot1.cbsistatic.com/uploads/scale_medium/box/2/4/6/8/448607-582468.jpg"
-                style={{ width: "100%", height: "500px" }}
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
                 fluid
               />
             </a>
@@ -394,7 +556,7 @@ function VideoGameCategory() {
             <a href="/details">
               <Image
                 src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/95a93d8c-f701-4cd4-9cf9-ffc64bf770a0/d9uxhm2-2a0a3648-de03-4558-8d6d-e02fc0c25584.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi85NWE5M2Q4Yy1mNzAxLTRjZDQtOWNmOS1mZmM2NGJmNzcwYTAvZDl1eGhtMi0yYTBhMzY0OC1kZTAzLTQ1NTgtOGQ2ZC1lMDJmYzBjMjU1ODQuanBnIn1dXX0.xMLg1TcBSzsQvuTzPX04kZh1Gr5xNLR2MEyWTztMDoQ"
-                style={{ width: "100%", height: "500px" }}
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
                 fluid
               />
             </a>
@@ -403,16 +565,7 @@ function VideoGameCategory() {
             <a href="/details">
               <Image
                 src="https://media.indiedb.com/images/games/1/37/36427/hollow_knight_boxart_idb.png"
-                style={{ width: "100%", height: "500px" }}
-                fluid
-              />
-            </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
-            <a href="/details">
-              <Image
-                src="https://sickr.files.wordpress.com/2019/03/fire_emblem_three_houses_north_american_box_art.jpg"
-                style={{ width: "100%", height: "500px" }}
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
                 fluid
               />
             </a>
@@ -421,8 +574,7 @@ function VideoGameCategory() {
             <a href="/details">
               <Image
                 src="https://media.playstation.com/is/image/SCEA/resident-evil-2-deluxe-edition-box-art-01-ps4-us-12dec18?$native_nt$"
-                thumbnail
-                style={{ width: "100%", height: "500px" }}
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
                 fluid
               />
             </a>
@@ -431,7 +583,16 @@ function VideoGameCategory() {
             <a href="/details">
               <Image
                 src="https://sickr.files.wordpress.com/2011/12/xenoblade_chronicles_us_box_art.jpg"
-                style={{ width: "100%", height: "500px" }}
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
+                fluid
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <a href="/details">
+              <Image
+                src="https://sickr.files.wordpress.com/2019/03/fire_emblem_three_houses_north_american_box_art.jpg"
+                style={{ width: "100%", height: "500px", paddingTop: "10px" ,paddingBottom: "10px" }}
                 fluid
               />
             </a>
@@ -446,18 +607,19 @@ function Details() {
   return (
     (document.title = "Photo Details"),
     (
-      <Card style={{ width: "18rem" }}>
-        <Card.Img
-          variant="top"
-          src="http://media.comicbook.com/2016/03/voltron-poster-175958.jpg"
-        />
-        <Card.Body>
-          <Card.Title>Voltron</Card.Title>
-        </Card.Body>
-        <ListGroup className="list-group-flush">
-          <ListGroupItem>2016</ListGroupItem>
-        </ListGroup>
-      </Card>
+      <Container>
+        <Row>
+          <Col>
+            <Image src="http://media.comicbook.com/2016/03/voltron-poster-175958.jpg"
+             style={{ width: "50%", height: "900px", paddingTop: "10px" ,paddingBottom: "10px", paddingLeft: "10px", align: "center"}}
+             fluid
+            />
+            <p>
+              Voltron is a show made by Netflix in 2016 and ended in 2018. The show had 8 seasons when it reached its conclusion.
+            </p>  
+          </Col>
+        </Row>
+      </Container>
     )
   );
 }
