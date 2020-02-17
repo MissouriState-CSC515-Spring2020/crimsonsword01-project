@@ -19,28 +19,19 @@ export default function App() {
       <Nav
         className="navbar navbar-expand-lg navbar-dark navbar-full"
       >
-        <Nav.Link href="/" style={{ color: "black", fontWeight: "bold" }}>
+        <Nav.Link href="/" style={{ color: "white", fontWeight: "bold"}}>
           Photo Gallery
         </Nav.Link>
 
-        <Nav.Link
-          href="/categories/movies"
-          style={{ color: "black", fontWeight: "bold" }}
-        >
+        <Nav.Link href="/categories/movies" style={{ color: "white", fontWeight: "bold" }} >
           Movies
         </Nav.Link>
 
-        <Nav.Link
-          href="/categories/shows"
-          style={{ color: "black", fontWeight: "bold" }}
-        >
+        <Nav.Link href="/categories/shows" style={{ color: "white", fontWeight: "bold" }} >
           Shows
         </Nav.Link>
 
-        <Nav.Link
-          href="/categories/video_games"
-          style={{ color: "black", fontWeight: "bold" }}
-        >
+        <Nav.Link href="/categories/video_games" style={{ color: "white", fontWeight: "bold" }} >
           Video Games
         </Nav.Link>
       </Nav>
@@ -71,12 +62,12 @@ function Gallery() {
     (document.title = "Photo Gallery"),
     (
       <Container>
-        <Row>
+        <Row className="panda">
           <Col xs={6} md={4} lg={3}>
             <a href="/details">
               <Image
                 src="https://cdn.traileraddict.com/content/madman/a-silent-voice-poster.jpg"
-                style={{ width: "100%", height: "500px" }}
+                style={{ width: "100%", height: "500px", borderStyle: "solid", borderWidth: "5px", borderColor: "white" }}
                 fluid
               />
             </a>
@@ -85,7 +76,7 @@ function Gallery() {
             <a href="/details">
               <Image
                 src="https://cdn.traileraddict.com/content/studio-ghibli/spirited-away.jpg"
-                style={{ width: "100%", height: "500px" }}
+                style={{ width: "100%", height: "500px", borderStyle: "solid", borderWidth: "5px", borderColor: "white" }}
                 fluid
               />
             </a>
@@ -94,7 +85,7 @@ function Gallery() {
             <a href="/details">
               <Image
                 src="https://cdn.traileraddict.com/content/madman/the-boy-and-the-beast.jpg"
-                style={{ width: "100%", height: "500px" }}
+                style={{ width: "100%", height: "500px", borderStyle: "solid", borderWidth: "5px", borderColor: "white" }}
                 fluid
               />
             </a>
@@ -103,7 +94,7 @@ function Gallery() {
             <a href="/details">
               <Image
                 src="https://cdn.traileraddict.com/content/walt-disney-pictures/treasure_planet.jpg"
-                style={{ width: "100%", height: "500px" }}
+                style={{ width: "100%", height: "500px", borderStyle: "solid", borderWidth: "5px", borderColor: "white" }}
                 fluid
               />
             </a>
@@ -112,7 +103,7 @@ function Gallery() {
             <a href="/details">
               <Image
                 src="https://cdn.traileraddict.com/content/madman/girl-who-leapt-through-time-poster.jpg"
-                style={{ width: "100%", height: "500px" }}
+                style={{ width: "100%", height: "500px", borderStyle: "solid", borderWidth: "5px", borderColor: "white" }}
                 fluid
               />
             </a>
@@ -121,7 +112,7 @@ function Gallery() {
             <a href="/details">
               <Image
                 src="https://fanart.tv/fanart/tv/74852/tvposter/avatar-the-last-airbender-590f3cebc05ad.jpg"
-                style={{ width: "100%", height: "500px" }}
+                style={{ width: "100%", height: "500px", borderStyle: "solid", borderWidth: "5px", borderColor: "white" }}
                 fluid
               />
             </a>
@@ -130,7 +121,7 @@ function Gallery() {
             <a href="/details">
               <Image
                 src="https://cdn.shopify.com/s/files/1/0798/5303/products/The-Ancient-Magus_-Bride_grande.jpg?v=1510174686"
-                style={{ width: "100%", height: "500px" }}
+                style={{ width: "100%", height: "500px", borderStyle: "solid", borderWidth: "5px", borderColor: "white" }}
                 fluid
               />
             </a>
@@ -139,7 +130,7 @@ function Gallery() {
             <a href="/details">
               <Image
                 src="https://fanart.tv/fanart/tv/262090/tvposter/psycho-pass-54a8915bbb9a4.jpg"
-                style={{ width: "100%", height: "500px" }}
+                style={{ width: "100%", height: "500px", borderStyle: "solid", borderWidth: "5px", borderColor: "white" }}
                 fluid
               />
             </a>
@@ -148,7 +139,7 @@ function Gallery() {
             <a href="/details">
               <Image
                 src="http://media.comicbook.com/2016/03/voltron-poster-175958.jpg"
-                style={{ width: "100%", height: "500px" }}
+                style={{ width: "100%", height: "500px", borderStyle: "solid", borderWidth: "5px", borderColor: "white"}}
                 fluid
               />
             </a>
@@ -359,14 +350,14 @@ function VideoGameCategory() {
     (
       <Container>
         <div>
-          <h1 align="center">Album Title</h1>
+          <h1 align="center">Video Games</h1>
         </div>
 
         <Row>
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
               <Image
-                src=""
+                src="https://cdn1-www.playstationlifestyle.net/assets/uploads/2016/07/final-fantasy-xv-box-art-japan.jpg"
                 style={{ width: "100%", height: "500px" }}
                 fluid
               />
@@ -375,7 +366,7 @@ function VideoGameCategory() {
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
               <Image
-                src=""
+                src="https://gearnuke.com/wp-content/uploads/2016/06/persona-5-2.jpg"
                 style={{ width: "100%", height: "500px" }}
                 fluid
               />
@@ -384,7 +375,7 @@ function VideoGameCategory() {
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
               <Image
-                src=""
+                src="http://images.pushsquare.com/812e2fe3f9c33/kingdom-hearts-3-iii-ps4-playstation-4-1.original.jpg"
                 style={{ width: "100%", height: "500px" }}
                 fluid
               />
@@ -393,7 +384,7 @@ function VideoGameCategory() {
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
               <Image
-                src=""
+                src="https://gamespot1.cbsistatic.com/uploads/scale_medium/box/2/4/6/8/448607-582468.jpg"
                 style={{ width: "100%", height: "500px" }}
                 fluid
               />
@@ -402,7 +393,7 @@ function VideoGameCategory() {
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
               <Image
-                src=""
+                src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/95a93d8c-f701-4cd4-9cf9-ffc64bf770a0/d9uxhm2-2a0a3648-de03-4558-8d6d-e02fc0c25584.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi85NWE5M2Q4Yy1mNzAxLTRjZDQtOWNmOS1mZmM2NGJmNzcwYTAvZDl1eGhtMi0yYTBhMzY0OC1kZTAzLTQ1NTgtOGQ2ZC1lMDJmYzBjMjU1ODQuanBnIn1dXX0.xMLg1TcBSzsQvuTzPX04kZh1Gr5xNLR2MEyWTztMDoQ"
                 style={{ width: "100%", height: "500px" }}
                 fluid
               />
@@ -411,7 +402,7 @@ function VideoGameCategory() {
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
               <Image
-                src=""
+                src="https://media.indiedb.com/images/games/1/37/36427/hollow_knight_boxart_idb.png"
                 style={{ width: "100%", height: "500px" }}
                 fluid
               />
@@ -420,7 +411,7 @@ function VideoGameCategory() {
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
               <Image
-                src=""
+                src="https://sickr.files.wordpress.com/2019/03/fire_emblem_three_houses_north_american_box_art.jpg"
                 style={{ width: "100%", height: "500px" }}
                 fluid
               />
@@ -429,7 +420,7 @@ function VideoGameCategory() {
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
               <Image
-                src=""
+                src="https://media.playstation.com/is/image/SCEA/resident-evil-2-deluxe-edition-box-art-01-ps4-us-12dec18?$native_nt$"
                 thumbnail
                 style={{ width: "100%", height: "500px" }}
                 fluid
@@ -439,7 +430,7 @@ function VideoGameCategory() {
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
               <Image
-                src=""
+                src="https://sickr.files.wordpress.com/2011/12/xenoblade_chronicles_us_box_art.jpg"
                 style={{ width: "100%", height: "500px" }}
                 fluid
               />
