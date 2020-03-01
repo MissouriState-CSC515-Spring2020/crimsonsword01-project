@@ -7,6 +7,7 @@ Clone this repository and install its dependencies:
 ```bash
 git clone https://github.com/MissouriState-CSC515-Spring2020/crimsonsword01-project.git
 cd crimsonsword01-project
+cd my-app
 ```
 
 ## Run Commands
