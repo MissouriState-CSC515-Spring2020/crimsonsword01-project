@@ -9,6 +9,13 @@
   font-weight: 300;
 }
 
+img {
+  height: 500px;
+  width: 100%;
+  padding-top: 10px; 
+  padding-bottom: 10px;
+}
+
 color {
   /* Clean and Energetic*/
   color: #5680E9;

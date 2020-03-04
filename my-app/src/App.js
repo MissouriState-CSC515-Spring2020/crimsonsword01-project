@@ -5,32 +5,58 @@ import {
   Container,
   Col,
   Nav,
-  Image,
   Row
 } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+
+//import Movie Pictures
+import howlCastle from "./photos/movies/howlsmovingcastle.jpg";
+import boyBeast from "./photos/movies/spirited-away.jpg";
+import spiritAway from "./photos/movies/the-boy-and-the-beast.jpg";
+import treasurePlanet from "./photos/movies/treasure_planet.jpg";
+import atlantis from "./photos/movies/atlantis_lost_empire-3.jpg";
+import girlLeapt from "./photos/movies/girl-who-leapt-through-time-poster.jpg";
+import bigHero from "./photos/movies/big_hero_6.jpg";
+import walle from "./photos/movies/walle-3.jpg";
+import silentVoice from "./photos/movies/a-silent-voice-poster.jpg";
+//import TV Show Pictures
+import avatar from "./photos/shows/avatar-the-last-airbender.jpg";
+import voltron from "./photos/shows/psycho-pass.jpg";
+import psycho from "./photos/shows/voltron-poster.jpg";
+import myHero from "./photos/shows/my_hero.jpg";
+import ancientMagus from "./photos/shows/The-Ancient-Magus-Bride.jpg";
+import noragami from "./photos/shows/noragami.jpg";
+import hunterX from "./photos/shows/hunter-x-hunter-2011.jpg";
+import kimPossible from "./photos/shows/kim-possible.jpg";
+import codeLyoko from "./photos/shows/code_lyoko.jpg";
+//import Video Game Pictures
+import final15 from "./photos/video_games/final-fantasy-xv-box-art-japan.jpg";
+import persona5 from "./photos/video_games/persona-5.jpg";
+import kingdom3 from "./photos/video_games/kingdom-hearts-3.jpg";
+import oriBlind from "./photos/video_games/or_blind_forest.jpg";
+import hollow from "./photos/video_games/hollow_knight.jpg";
+import dragonQuest from "./photos/video_games/dragon_quest_XI.jpg";
+import fireEmblem from "./photos/video_games/fire_emblem_three_houses.jpg";
+import resEvil from "./photos/video_games/resident-evil-2.jpg";
+import xenoblade from "./photos/video_games/xenoblade_chronicles.jpg";
 
 export default function App() {
   return (
     <Router>
       <Nav className="navbar navbar-expand-lg navbar-dark navbar-full" >
-        <Nav.Link href="/" style={{ color: "white", fontWeight: "bold" }}>
+        <Nav.Link href="/" style={{ color: "black", fontWeight: "bold" }}>
           Photo Gallery
         </Nav.Link>
-
-        <Nav.Link href="/movies" style={{ color: "white", fontWeight: "bold" }} >
+        <Nav.Link href="/movies" style={{ color: "black", fontWeight: "bold" }} >
           Movies
         </Nav.Link>
-
-        <Nav.Link href="/shows" style={{ color: "white", fontWeight: "bold" }} >
+        <Nav.Link href="/shows" style={{ color: "black", fontWeight: "bold" }} >
           Shows
         </Nav.Link>
-
-        <Nav.Link href="/video_games" style={{ color: "white", fontWeight: "bold" }} >
+        <Nav.Link href="/video_games" style={{ color: "black", fontWeight: "bold" }} >
           Video Games
         </Nav.Link>
       </Nav>
-
       <Switch>
         <Route exact path="/">
           <Gallery />
@@ -58,246 +84,141 @@ function Gallery() {
     (
       <Container>
         <Row>
-          <Col xs={12} md={6} lg={4}>
+          <div class="col-xs-3 col-md-4 pic-box justify-content-center">
             <a href="/details">
-              <Image
-                src="https://images.squarespace-cdn.com/content/v1/52127948e4b06d5f9d345a0f/1376943030746-UWKC9JG5TRU4UKUFCGI2/ke17ZwdGBToddI8pDm48kORGQBXhNGZU2AZjkDf_15xZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpyYWIZjFqIhVHL5wdbUEf-_jyvmnXjmyRpH4uIQyuaMfet89qDT7zPIXm4DAzvfSgo/howlsmovingcastle.jpg?format=500w"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid />
+              <img class="img-fluid" src={howlCastle} alt="Howls Moving Castle" />
             </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
+          </div>
+          <div class="col-xs-3 col-md-4 pic-box justify-content-center">
             <a href="/details">
-              <Image
-                src="https://cdn.traileraddict.com/content/madman/the-boy-and-the-beast.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid />
+              <img class="img-fluid" src={boyBeast} alt="The Boy and the Beast" />
             </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
+          </div>
+          <div class="col-xs-3 col-md-4 pic-box justify-content-center">
             <a href="/details">
-              <Image
-                src="https://cdn.traileraddict.com/content/studio-ghibli/spirited-away.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid />
+              <img class="img-fluid" src={spiritAway} alt="Spirited Away" />
             </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
+          </div>
+          <div class="col-xs-3 col-md-4 pic-box justify-content-center">
             <a href="/details">
-              <Image
-                src="https://fanart.tv/fanart/tv/74852/tvposter/avatar-the-last-airbender-590f3cebc05ad.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={avatar} alt="Avatar: The Last Airbender" />
             </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
+          </div>
+          <div class="col-xs-3 col-md-4 pic-box justify-content-center">
             <a href="/details">
-              <Image
-                src="http://media.comicbook.com/2016/03/voltron-poster-175958.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={voltron} alt="Voltron Legendary Defenders" />
             </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
+          </div>
+          <div class="col-xs-3 col-md-4 pic-box justify-content-center">
             <a href="/details">
-              <Image
-                src="https://fanart.tv/fanart/tv/262090/tvposter/psycho-pass-54a8915bbb9a4.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={psycho} alt="Psycho Pass" />
             </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
+          </div>
+          <div class="col-xs-3 col-md-4 pic-box justify-content-center">
             <a href="/details">
-              <Image
-                src="https://cdn1-www.playstationlifestyle.net/assets/uploads/2016/07/final-fantasy-xv-box-art-japan.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={final15} alt="Final Fantasy XV" />
             </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
+          </div>
+          <div class="col-xs-3 col-md-4 pic-box justify-content-center">
             <a href="/details">
-              <Image
-                src="https://gearnuke.com/wp-content/uploads/2016/06/persona-5-2.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={persona5} alt="Persona 5" />
             </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
+          </div>
+          <div class="col-xs-3 col-md-4 pic-box justify-content-center">
             <a href="/details">
-              <Image
-                src="http://images.pushsquare.com/812e2fe3f9c33/kingdom-hearts-3-iii-ps4-playstation-4-1.original.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={kingdom3} alt="Kingdom Hearts 3" />
             </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
+          </div>
+          <div class="col-xs-3 col-md-4 pic-box justify-content-center">
             <a href="/details">
-              <Image
-                src="https://cdn.traileraddict.com/content/walt-disney-pictures/treasure_planet.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={treasurePlanet} alt="Treasure Planet" />
             </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
+          </div>
+          <div class="col-xs-3 col-md-4 pic-box justify-content-center">
             <a href="/details">
-              <Image
-                src="https://cdn.traileraddict.com/content/walt-disney-pictures/atlantis_lost_empire-3.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={atlantis} alt="Atlantis The Lost Empire" />
             </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
+          </div>
+          <div class="col-xs-3 col-md-4 pic-box justify-content-center">
             <a href="/details">
-              <Image
-                src="https://cdn.traileraddict.com/content/madman/girl-who-leapt-through-time-poster.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={girlLeapt} alt="The Girl Who Leapt Through Time" />
             </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
+          </div>
+          <div class="col-xs-3 col-md-4 pic-box justify-content-center">
             <a href="/details">
-              <Image
-                src="https://cdn.shopify.com/s/files/1/0798/5303/products/The-Ancient-Magus_-Bride_grande.jpg?v=1510174686"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={ancientMagus} alt="The Ancient Magus Bride" />
             </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
+          </div>
+          <div class="col-xs-3 col-md-4 pic-box justify-content-center">
             <a href="/details">
-              <Image
-                src="https://image.tmdb.org/t/p/original/ac4qpPgSbK5kf5yhQHNmtzJdfCF.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={noragami} alt="Noragami" />
             </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
+          </div>
+          <div class="col-xs-3 col-md-4 pic-box justify-content-center">
             <a href="/details">
-              <Image
-                src="https://cdn.shopify.com/s/files/1/0747/3829/products/mL0215_grande.jpg?v=1512225771"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={myHero} alt="My Hero Academia" />
             </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
+          </div>
+          <div class="col-xs-3 col-md-4 pic-box justify-content-center">
             <a href="/details">
-              <Image
-                src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/95a93d8c-f701-4cd4-9cf9-ffc64bf770a0/d9uxhm2-2a0a3648-de03-4558-8d6d-e02fc0c25584.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi85NWE5M2Q4Yy1mNzAxLTRjZDQtOWNmOS1mZmM2NGJmNzcwYTAvZDl1eGhtMi0yYTBhMzY0OC1kZTAzLTQ1NTgtOGQ2ZC1lMDJmYzBjMjU1ODQuanBnIn1dXX0.xMLg1TcBSzsQvuTzPX04kZh1Gr5xNLR2MEyWTztMDoQ"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={oriBlind} alt="Ori and the Blind Forest" />
             </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
+          </div>
+          <div class="col-xs-3 col-md-4 pic-box justify-content-center">
             <a href="/details">
-              <Image
-                src="https://media.indiedb.com/images/games/1/37/36427/hollow_knight_boxart_idb.png"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={hollow} alt="Hollow Knight" />
             </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
+          </div>
+          <div class="col-xs-3 col-md-4 pic-box justify-content-center">
             <a href="/details">
-              <Image
-                src="https://media.playstation.com/is/image/SCEA/resident-evil-2-deluxe-edition-box-art-01-ps4-us-12dec18?$native_nt$"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={resEvil} alt="Resident Evil 2 Remake" />
             </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
+          </div>
+          <div class="col-xs-3 col-md-4 pic-box justify-content-center">
             <a href="/details">
-              <Image
-                src="https://ohmy.disney.com/wp-content/uploads/2014/10/big_hero_6_poster_malaysia.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={bigHero} alt="Big Hero 6" />
             </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
+          </div>
+          <div class="col-xs-3 col-md-4 pic-box justify-content-center">
             <a href="/details">
-              <Image
-                src="https://cdn.traileraddict.com/content/pixar-disney/walle-3.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={walle} alt="Wall-e" />
             </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
+          </div>
+          <div class="col-xs-3 col-md-4 pic-box justify-content-center">
             <a href="/details">
-              <Image
-                src="https://cdn.traileraddict.com/content/madman/a-silent-voice-poster.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={silentVoice} alt="A Silent Voice" />
             </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
+          </div>
+          <div class="col-xs-3 col-md-4 pic-box justify-content-center">
             <a href="/details">
-              <Image
-                src="https://fanart.tv/fanart/tv/252322/tvposter/hunter-x-hunter-2011-56c9b2ebdf747.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={hunterX} alt="Hunter X Hunter 2011" />
             </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
+          </div>
+          <div class="col-xs-3 col-md-4 pic-box justify-content-center">
             <a href="/details">
-              <Image
-                src="http://img.codelyoko.fr/galeries/poster/promo_cl_99.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={codeLyoko} alt="Code Lyoko" />
             </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
+          </div>
+          <div class="col-xs-3 col-md-4 pic-box justify-content-center">
             <a href="/details">
-              <Image
-                src="https://fanart.tv/fanart/tv/78259/tvposter/kim-possible-54c8749f09db0.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={kimPossible} alt="Kim Possible" />
             </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
+          </div>
+          <div class="col-xs-3 col-md-4 pic-box justify-content-center">
             <a href="/details">
-              <Image
-                src="https://gamespot1.cbsistatic.com/uploads/scale_medium/box/2/4/6/8/448607-582468.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={dragonQuest} alt="Dragon Quest XI" />
             </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
+          </div>
+          <div class="col-xs-3 col-md-4 pic-box justify-content-center">
             <a href="/details">
-              <Image
-                src="https://sickr.files.wordpress.com/2011/12/xenoblade_chronicles_us_box_art.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={xenoblade} alt="Xenoblade Chronicles" />
             </a>
-          </Col>
-          <Col xs={12} md={6} lg={4}>
+          </div>
+          <div class="col-xs-3 col-md-4 pic-box justify-content-center">
             <a href="/details">
-              <Image
-                src="https://sickr.files.wordpress.com/2019/03/fire_emblem_three_houses_north_american_box_art.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={fireEmblem} alt="Fire Emblem Three Houses" />
             </a>
-          </Col>
+          </div>
         </Row>
       </Container>
     )
@@ -312,87 +233,50 @@ function MovieCategory() {
         <div>
           <h1 align="center">Movies</h1>
         </div>
-
         <Row>
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
-              <Image
-                src="https://images.squarespace-cdn.com/content/v1/52127948e4b06d5f9d345a0f/1376943030746-UWKC9JG5TRU4UKUFCGI2/ke17ZwdGBToddI8pDm48kORGQBXhNGZU2AZjkDf_15xZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpyYWIZjFqIhVHL5wdbUEf-_jyvmnXjmyRpH4uIQyuaMfet89qDT7zPIXm4DAzvfSgo/howlsmovingcastle.jpg?format=500w"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={howlCastle} alt="Howls Moving Castle" />
             </a>
           </Col>
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
-              <Image
-                src="https://cdn.traileraddict.com/content/madman/the-boy-and-the-beast.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={boyBeast} alt="The Boy and the Beast" />
             </a>
           </Col>
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
-              <Image
-                src="https://cdn.traileraddict.com/content/studio-ghibli/spirited-away.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={spiritAway} alt="Spirited Away" />
             </a>
           </Col>
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
-              <Image
-                src="https://cdn.traileraddict.com/content/walt-disney-pictures/treasure_planet.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={treasurePlanet} alt="Treasure Planet" />
             </a>
           </Col>
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
-              <Image
-                src="https://cdn.traileraddict.com/content/walt-disney-pictures/atlantis_lost_empire-3.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={atlantis} alt="Atlantis The Lost Empire" />
             </a>
           </Col>
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
-              <Image
-                src="https://cdn.traileraddict.com/content/madman/girl-who-leapt-through-time-poster.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={girlLeapt} alt="The Girl Who Leapt Through Time" />
             </a>
           </Col>
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
-              <Image
-                src="https://ohmy.disney.com/wp-content/uploads/2014/10/big_hero_6_poster_malaysia.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={bigHero} alt="Big Hero 6" />
             </a>
           </Col>
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
-              <Image
-                src="https://cdn.traileraddict.com/content/pixar-disney/walle-3.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={walle} alt="Wall-e" />
             </a>
           </Col>
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
-              <Image
-                src="https://cdn.traileraddict.com/content/madman/a-silent-voice-poster.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={silentVoice} alt="A Silent Voice" />
             </a>
           </Col>
         </Row>
@@ -409,87 +293,50 @@ function ShowCategory() {
         <div>
           <h1 align="center">Tv Shows</h1>
         </div>
-
         <Row>
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
-              <Image
-                src="https://fanart.tv/fanart/tv/74852/tvposter/avatar-the-last-airbender-590f3cebc05ad.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={avatar} alt="Avatar: The Last Airbender" />
             </a>
           </Col>
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
-              <Image
-                src="http://media.comicbook.com/2016/03/voltron-poster-175958.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={voltron} alt="Voltron Legendary Defenders" />
             </a>
           </Col>
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
-              <Image
-                src="https://fanart.tv/fanart/tv/262090/tvposter/psycho-pass-54a8915bbb9a4.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={psycho} alt="Psycho Pass" />
             </a>
           </Col>
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
-              <Image
-                src="https://cdn.shopify.com/s/files/1/0798/5303/products/The-Ancient-Magus_-Bride_grande.jpg?v=1510174686"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={ancientMagus} alt="The Ancient Magus Bride" />
             </a>
           </Col>
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
-              <Image
-                src="https://image.tmdb.org/t/p/original/ac4qpPgSbK5kf5yhQHNmtzJdfCF.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={noragami} alt="Noragami" />
             </a>
           </Col>
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
-              <Image
-                src="https://cdn.shopify.com/s/files/1/0747/3829/products/mL0215_grande.jpg?v=1512225771"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={myHero} alt="My Hero Academia" />
             </a>
           </Col>
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
-              <Image
-                src="https://fanart.tv/fanart/tv/252322/tvposter/hunter-x-hunter-2011-56c9b2ebdf747.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={hunterX} alt="Hunter X Hunter 2011" />
             </a>
           </Col>
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
-              <Image
-                src="http://img.codelyoko.fr/galeries/poster/promo_cl_99.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={codeLyoko} alt="Code Lyoko" />
             </a>
           </Col>
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
-              <Image
-                src="https://fanart.tv/fanart/tv/78259/tvposter/kim-possible-54c8749f09db0.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={kimPossible} alt="Kim Possible" />
             </a>
           </Col>
         </Row>
@@ -506,87 +353,50 @@ function VideoGameCategory() {
         <div>
           <h1 align="center">Video Games</h1>
         </div>
-
         <Row>
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
-              <Image
-                src="https://cdn1-www.playstationlifestyle.net/assets/uploads/2016/07/final-fantasy-xv-box-art-japan.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={final15} alt="Final Fantasy XV" />
             </a>
           </Col>
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
-              <Image
-                src="https://gearnuke.com/wp-content/uploads/2016/06/persona-5-2.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={persona5} alt="Persona 5" />
             </a>
           </Col>
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
-              <Image
-                src="http://images.pushsquare.com/812e2fe3f9c33/kingdom-hearts-3-iii-ps4-playstation-4-1.original.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={kingdom3} alt="Kingdom Hearts 3" />
             </a>
           </Col>
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
-              <Image
-                src="https://gamespot1.cbsistatic.com/uploads/scale_medium/box/2/4/6/8/448607-582468.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={oriBlind} alt="Ori and the Blind Forest" />
             </a>
           </Col>
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
-              <Image
-                src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/95a93d8c-f701-4cd4-9cf9-ffc64bf770a0/d9uxhm2-2a0a3648-de03-4558-8d6d-e02fc0c25584.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi85NWE5M2Q4Yy1mNzAxLTRjZDQtOWNmOS1mZmM2NGJmNzcwYTAvZDl1eGhtMi0yYTBhMzY0OC1kZTAzLTQ1NTgtOGQ2ZC1lMDJmYzBjMjU1ODQuanBnIn1dXX0.xMLg1TcBSzsQvuTzPX04kZh1Gr5xNLR2MEyWTztMDoQ"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={hollow} alt="Hollow Knight" />
             </a>
           </Col>
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
-              <Image
-                src="https://media.indiedb.com/images/games/1/37/36427/hollow_knight_boxart_idb.png"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={resEvil} alt="Resident Evil 2 Remake" />
             </a>
           </Col>
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
-              <Image
-                src="https://media.playstation.com/is/image/SCEA/resident-evil-2-deluxe-edition-box-art-01-ps4-us-12dec18?$native_nt$"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={dragonQuest} alt="Dragon Quest XI" />
             </a>
           </Col>
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
-              <Image
-                src="https://sickr.files.wordpress.com/2011/12/xenoblade_chronicles_us_box_art.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={xenoblade} alt="Xenoblade Chronicles" />
             </a>
           </Col>
           <Col xs={12} md={6} lg={4}>
             <a href="/details">
-              <Image
-                src="https://sickr.files.wordpress.com/2019/03/fire_emblem_three_houses_north_american_box_art.jpg"
-                style={{ width: "100%", height: "500px", paddingTop: "10px", paddingBottom: "10px" }}
-                fluid
-              />
+              <img class="img-fluid" src={fireEmblem} alt="Fire Emblem Three Houses" />
             </a>
           </Col>
         </Row>
@@ -602,10 +412,8 @@ function Details() {
       <Container>
         <Row>
           <Col>
-            <Image src="http://media.comicbook.com/2016/03/voltron-poster-175958.jpg"
-              style={{ width: "50%", height: "900px", paddingTop: "10px", paddingBottom: "10px", paddingLeft: "10px", align: "center" }}
-              fluid
-            />
+            <img src={voltron} alt="Voltron Legendary Defenders"
+              style={{ width: "50%", height: "900px", paddingTop: "10px", paddingBottom: "10px", paddingLeft: "10px", align: "center" }} fluid />
             <p>
               Voltron is a show made by Netflix in 2016 and ended in 2018. The show had 8 seasons when it reached its conclusion.
             </p>
