@@ -9,10 +9,15 @@
   font-weight: 300;
 }
 
+h1 {
+  padding-top: 10px;
+}
+
 img {
-  height: 500px;
+  max-height: 480px;
+	overflow: hidden;
   width: 100%;
-  padding-top: 10px; 
+  padding-top: 15px; 
   padding-bottom: 10px;
 }
 
