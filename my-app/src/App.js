@@ -91,12 +91,12 @@ function Gallery() {
           </div>
           <div class="col-xs-3 col-md-4 pic-box justify-content-center">
             <a href="/details">
-              <img class="img-fluid" src={boyBeast} alt="The Boy and the Beast" />
+              <img class="img-fluid" src={boyBeast} alt="The Boy and the Beast" fluid />
             </a>
           </div>
           <div class="col-xs-3 col-md-4 pic-box justify-content-center">
             <a href="/details">
-              <img class="img-fluid" src={spiritAway} alt="Spirited Away" />
+              <img class="img-fluid" src={spiritAway} alt="Spirited Away" fluid />
             </a>
           </div>
           <div class="col-xs-3 col-md-4 pic-box justify-content-center">
