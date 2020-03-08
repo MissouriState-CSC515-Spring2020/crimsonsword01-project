@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+
+<head lang='en'>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<title>Recent Photos</title>
+	<style>
+		img {
+			width: 100%;
+			height: 500px;
+			padding: 10px 10px 10px 10px;
+		}
+		body {
+			font-family: 'Helvetica Neue', Arial, sans-serif;
+			background-color: black;
+			color: white;
+			font-weight: 300;
+		}
+        table {
+            table-layout: auto;
+            border-collapse: collapse;
+            width: 60%;
+        }
+        table td {
+            white-space:nowrap;
+        }
+	</style>
+</head>
+
+<body>
+	<!--Navigation Bar-->
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<!--When You Click on Photos Gallery it will send back to Main Page-->
+				<a class="navbar-brand" href="index.html">Photos Gallery</a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+							aria-expanded="false">Albums<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="landscape.html" id="land-btn">Landscapes</a>
+							</li>
+							<li><a href="landscape.html" id="animal-btn">Animals</a>
+							</li>
+							<li><a href="description.html" id="description-btn">Photo Descriptions</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="main container-fluid">
+		<div class="page-header">
+			<h1>Descriptions of Photos</h1>
+		</div>
+		<div class="row overflow-wrap" id="main">
+            <table> 
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <td class="content"><img src="/photos/001.jpg" id="land-img" class="img-rounded" alt="Winter Wonderland"></td>
+                    <td class="content"><p>It's a winter Wonderland!</p></td>
+                </tbody>
+                <tbody>
+                    <td class="content"><img src="/photos/002.png" id="land-img" class="img-rounded" alt="Japanese Bridge in Winter"></td>
+                    <td class="content"><p>Winter in a Japanese Garden.</p></td>
+                </tbody>
+                <tbody>
+                    <td class="content"><img src="/photos/003.png" id="land-img" class="img-rounded" alt="Canyon Night Sky">></td>
+                    <td class="content"><p>A starry sky view within the canyon!</p></td>
+                </tbody>
+                <tbody>
+                    <td class="content"><img src="/photos/004.jpg" id="animal-img" class="img-rounded" alt="Snowy Owl"></td>
+                    <td class="content"><p>A beautiful snory owl enjoying its time in the snow.</p></td>
+                </tbody>
+                <tbody>
+                    <td class="content"><img src="/photos/005.jpg" id="animal-img" class="img-rounded" alt="Turtle"></td>
+                    <td class="content"><p>The turtle wants an undersea hug.</p></td>
+                </tbody>
+                <tbody>
+                    <td class="content"><img src="/photos/006.jpg" id="animal-img" class="img-rounded" alt="Sloth"></td>
+                    <td class="content"><p>A very cuddly sloth.</p></td>
+                </tbody>
+                <tbody>
+                    <td class="content"><img src="/photos/007.png" id="animal-img" class="img-rounded" alt="Tiger"></td>
+                    <td class="content"><p>A ferocious tiger on the prowl.</p></td>
+                </tbody>
+                <tbody>
+                    <td class="content"><img src="/photos/008.jpg" id="animal-img" class="img-rounded" alt="Seal"></td>
+                    <td class="content"><p>A very chunky happy seal.</p></td>
+                </tbody>
+                <tbody>
+                    <td class="content"><img src="/photos/009.jpg" id="animal-img" class="img-rounded" alt="Cheetah"></td>
+                    <td class="content"><p>A sleepy cheetah in a tree.</p></td>
+                </tbody>
+                <tbody>
+                    <td class="content"><img src="/photos/010.jpg" id="land-img" class="img-rounded" alt="Aurora Borealis"></td>
+                    <td class="content"><p>The Aurora Borealis in its colorful array.</p></td>
+                </tbody>
+                <tbody>
+                    <td class="content"><img src="/photos/011.jpg" id="land-img" class="img-rounded" alt="Vietnam Temple"></td>
+                    <td class="content"><p>Looks like a scene from Uncharted.</p></td>
+                </tbody>
+                <tbody>
+                    <td class="content"><img src="/photos/012.jpg" id="land-img" class="img-rounded" alt="Japanese Cherry Blossoms"></td>
+                    <td class="content"><p>The cherry blsosom trees in full bloom on a Japanese street.</p></td>
+                </tbody>
+            </table>
+		</div>
+	</div>
+</body>
+
+</html>

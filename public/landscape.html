@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+
+<head lang='en'>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Landscape Photos</title>
+    <style>
+        img {
+            width: 30%;
+            height: 300px;
+            padding: 10px 10px 10px 10px;
+        }
+        body {
+			font-family: 'Helvetica Neue', Arial, sans-serif;
+			background-color: black;
+			color: white;
+			font-weight: 300;
+		}
+    </style>
+</head>
+
+<body>
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <!--When You Click on Photos Gallery it will send back to Main Page-->
+                <a class="navbar-brand" href=" http://localhost:5000">Photos Gallery</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">Albums<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="landscape.html">Landscapes</a>
+                            </li>
+                            <li><a href="landscape.html">Animals</a>
+                            </li>
+                            <li><a href="description.html" id="description-btn">Photo Descriptions</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="main container-fluid">
+        <div class="page-header">
+            <h1>Majestic Landscapes</h1>
+        </div>
+        <div class="row overflow-wrap">
+            <img src="/photos/001.jpg" class="img-rounded" alt="Winter Wonderland">
+            <img src="/photos/002.png" class="img-rounded" alt="Japanese Bridge in Winter">
+            <img src="/photos/003.png" class="img-rounded" alt="Canyon Night Sky">
+            <img src="/photos/010.jpg" class="img-rounded" alt="Aurora Borealis">
+            <img src="/photos/011.jpg" class="img-rounded" alt="Vietnam Temple">
+            <img src="/photos/012.jpg" class="img-rounded" alt="Japanese Cherry Blossoms">
+        </div>
+        <div class="page-header">
+            <h1>Wondorous Wildlife</h1>
+        </div>
+        <div class="row overflow-wrap">
+            <img src="/photos/004.jpg" class="img-rounded" alt="Snowy Owl">
+            <img src="/photos/005.jpg" class="img-rounded" alt="Turtle">
+            <img src="/photos/006.jpg" class="img-rounded" alt="Sloth">
+            <img src="/photos/007.png" class="img-rounded" alt="Tiger">
+            <img src="/photos/008.jpg" class="img-rounded" alt="Seal">
+            <img src="/photos/009.jpg" class="img-rounded" alt="Cheetah">
+        </div>
+    </div>
+</body>
+
+</html>
