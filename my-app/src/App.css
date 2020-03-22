@@ -1,0 +1,26 @@
+.navbar {
+  background-color: #AAABB8;
+}
+
+#root {
+  font-family: 'Georgia', Arial, sans-serif;
+  background-color: #25274D;
+  color: #F7F9FB;
+  font-weight: 300;
+}
+
+color {
+  /* Clean and Energetic*/
+  color: #5680E9;
+  color: #84CEEB;
+  color: #5AB9EA;
+  color: #C1C8E4;
+  color: #8860D0;
+
+  /* Blue and Refreshing*/
+  color: #25274D;
+  color: #464866;
+  color: #AAABB8;
+  color: #2E9CCA;
+  color: #29648A;
+}
