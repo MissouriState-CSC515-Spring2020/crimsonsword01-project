@@ -9,6 +9,18 @@
   font-weight: 300;
 }
 
+h1 {
+  padding-top: 10px;
+}
+
+img {
+  max-height: 480px;
+	overflow: hidden;
+  width: 100%;
+  padding-top: 15px; 
+  padding-bottom: 10px;
+}
+
 color {
   /* Clean and Energetic*/
   color: #5680E9;
